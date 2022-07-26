@@ -92,8 +92,10 @@
     h1 {
     text-align: center;
     }
-    .col-md-6 {
+    div {
         position: relative;
+    }
+    .col-md-6 {
         background-color: gray;
         text-align: center;
         padding: 10px;
@@ -130,6 +132,9 @@
     }
     .col-lg-4 {
         width: 33.33%;
+    }
+    div {
+        position: relative;
     }
     h1 {
         text-align: center;
