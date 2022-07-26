@@ -1,12 +1,33 @@
 @media (max-width:767px) {
-    h1 text-align: center;
+    h1 {
+        text-align: center;
+    }
+    .col-xs {
+        background-color: gray;
+        text-align: center;
+        padding: 5px;
+        border: 2px solid black;
+    }
 }
-
-
 @media (min-width:768px) and (max-width:991px) {
-    h1 text-align: center;
+    h1 {
+    text-align: center;
+    }
+    .col-md-6 {
+        background-color: gray;
+        text-align: center;
+        padding: 10px;
+        border: 2px solid black;
+    }
 }
-
 @media (min-width:992px) {
-    h1 text-align: center;
+    h1 {
+        text-align: center;
+    }
+    .col-lg-4 {
+        background-color: gray;
+        text-align: center;
+        padding: 10px;
+        border: 2px solid black;
+    }
 }
